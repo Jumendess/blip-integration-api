@@ -1,0 +1,37 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "GitHub Repositories API",
+    "description": "API para listar repositórios em C# do GitHub.",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/repositorios": {
+      "get": {
+        "summary": "Lista os 5 repositórios C# mais antigos do GitHub.",
+        "responses": {
+          "200": {
+            "description": "Repositórios encontrados",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "avatar_url": { "type": "string" },
+                  "name": { "type": "string" },
+                  "description": { "type": "string" }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Nenhum repositório encontrado"
+          },
+          "500": {
+            "description": "Erro interno do servidor"
+          }
+        }
+      }
+    }
+  }
+}
