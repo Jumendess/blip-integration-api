@@ -16,7 +16,7 @@ winston.add(new winston.transports.File({
   format: winston.format.combine(
     winston.format.timestamp(),
     winston.format.json()
-  )
+  ),
 }));
 
 // Definir as rotas

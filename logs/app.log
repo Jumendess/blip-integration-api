@@ -11,3 +11,18 @@
 {"level":"error","message":"Erro ao buscar repositórios: Internal Server Error","timestamp":"2025-01-20T23:25:46.061Z"}
 {"level":"info","message":"API rodando na porta 3000","timestamp":"2025-01-20T23:25:53.750Z"}
 {"level":"info","message":"API rodando na porta 3000","timestamp":"2025-01-20T23:31:39.120Z"}
+{"level":"info","message":"API rodando na porta 3000","timestamp":"2025-01-20T23:58:54.196Z"}
+{"level":"error","message":"Erro ao buscar repositórios: githubService.getCSharpRepositories is not a function","timestamp":"2025-01-20T23:59:01.258Z"}
+{"level":"error","message":"Erro ao buscar repositórios: githubService.getCSharpRepositories is not a function","timestamp":"2025-01-20T23:59:02.789Z"}
+{"level":"error","message":"Erro ao buscar repositórios: githubService.getCSharpRepositories is not a function","timestamp":"2025-01-20T23:59:06.297Z"}
+{"level":"info","message":"API rodando na porta 3000","timestamp":"2025-01-21T00:01:18.526Z"}
+{"level":"error","message":"Erro ao buscar repositórios: Erro interno do servidor","timestamp":"2025-01-21T00:01:23.615Z"}
+{"level":"info","message":"API rodando na porta 3000","timestamp":"2025-01-21T00:03:16.454Z"}
+{"level":"error","message":"Erro ao buscar repositórios: Erro interno do servidor","timestamp":"2025-01-21T00:03:20.624Z"}
+{"level":"info","message":"API rodando na porta 3000","timestamp":"2025-01-21T00:06:20.171Z"}
+{"level":"error","message":"Erro ao buscar repositórios: Erro interno do servidor","timestamp":"2025-01-21T00:06:26.535Z"}
+{"level":"error","message":"Erro ao buscar repositórios: Erro interno do servidor","timestamp":"2025-01-21T00:06:45.790Z"}
+{"level":"info","message":"API rodando na porta 3000","timestamp":"2025-01-21T00:09:14.749Z"}
+{"level":"error","message":"Erro ao buscar repositórios: Erro interno do servidor","timestamp":"2025-01-21T00:09:18.732Z"}
+{"level":"info","message":"API rodando na porta 3000","timestamp":"2025-01-21T00:11:32.624Z"}
+{"level":"error","message":"Erro ao buscar repositórios: Internal Server Error","timestamp":"2025-01-21T00:12:13.808Z"}
