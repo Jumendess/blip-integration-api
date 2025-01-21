@@ -1,7 +1,7 @@
-require('dotenv').config(); // Carregar variáveis de ambiente
+require('dotenv').config();
 
 const request = require('supertest');
-const app = require('../server');  // Aponte para o seu arquivo de servidor
+const app = require('../server');
 
 describe('GET /repositorios', () => {
   it('should return a list of C# repositories', async () => {
@@ -11,7 +11,7 @@ describe('GET /repositorios', () => {
   });
 
   it('should return a 404 status if no C# repositories are found', async () => {
-    // Mock da função getCSharpRepositories para simular uma lista vazia
+
     jest.spyOn(require('../services/githubService'), 'getCSharpRepositories').mockResolvedValue([]);
 
     const response = await request(app).get('/repositorios');
@@ -20,7 +20,7 @@ describe('GET /repositorios', () => {
   });
 
   it('should return a 500 status for internal server errors', async () => {
-    // Mock da função getCSharpRepositories para simular erro
+
     jest.spyOn(require('../services/githubService'), 'getCSharpRepositories').mockRejectedValue(new Error('Internal Server Error'));
 
     const response = await request(app).get('/repositorios');

@@ -26,3 +26,4 @@
 {"level":"error","message":"Erro ao buscar repositórios: Erro interno do servidor","timestamp":"2025-01-21T00:09:18.732Z"}
 {"level":"info","message":"API rodando na porta 3000","timestamp":"2025-01-21T00:11:32.624Z"}
 {"level":"error","message":"Erro ao buscar repositórios: Internal Server Error","timestamp":"2025-01-21T00:12:13.808Z"}
+{"level":"info","message":"API rodando na porta 3000","timestamp":"2025-01-21T02:09:38.699Z"}
